@@ -1,0 +1,17 @@
+<template>
+  <div class="layout_section">
+    <h1>Layout</h1><br /><br />
+
+    <lightning-layout multiple-rows>
+
+      <template for:each={data} for:item="player">  
+        <lightning-layout-item size="12" large-device-size="3" medium-device-size="6" padding="around-small"  class="image_sec" key={player.id}>
+          <img src={player.imgLink}/>
+        </lightning-layout-item>
+      </template>
+
+
+
+    </lightning-layout>
+  </div>
+</template>

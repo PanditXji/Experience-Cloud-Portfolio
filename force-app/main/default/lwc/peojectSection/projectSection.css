@@ -1,0 +1,29 @@
+.project_title {
+  margin-bottom: 20px;
+  font-weight: 800;
+  border-bottom: 4px solid #A020f0;
+  font-size: 32px;
+  border-bottom-width: thick;
+  width: 15%;
+}
+
+.project_title h1 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 900;
+}
+
+.para_text {
+  font-family: sans-serif;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.image_section {
+  width: 80%;
+}
+
+.accordion_section {
+  --slds-c-accordion-heading-text-color: #333;
+  --slds-c-accordion-heading-font-size: 1.2rem;
+}

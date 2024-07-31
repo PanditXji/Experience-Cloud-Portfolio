@@ -1,0 +1,53 @@
+.about_page{
+  background-color: #f6f6f6;
+
+}
+
+.skills_div{
+  padding-top: 20px;
+
+}
+.para_text{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+.profile_title {
+  margin-bottom: 20px;
+  font-weight: 800;
+  border-bottom: 4px solid #A020F0;
+  border-bottom-width: thick;
+  width: 15%;
+}
+.profile_title h1{
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+}
+.profile_pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  height: auto;
+  width:80%;
+  margin: 0 0px 0 65px;
+  background-repeat: no-repeat;
+}
+
+.progress-bar__value {
+    background-color: #0070d2; 
+}
+
+@media  screen and (max-width:900px){
+  .profile_pic img{
+   width: 100%;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 2px;
+
+  }
+}
+

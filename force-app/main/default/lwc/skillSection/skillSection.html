@@ -1,0 +1,56 @@
+<template>
+
+  <a name="skill"></a>
+  <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium about_page">
+
+    <lightning-layout multiple-rows>
+      <!-- left side  -->
+      <lightning-layout-item padding="aroound-small" size="12" medium-device-size="6" large-device-size="6"
+        class="slds-align_absolute-center">
+
+        <div class="profile_pic">
+          <img src={skillImage} />
+        </div>
+      </lightning-layout-item>
+
+      <!-- right side  -->
+      <lightning-layout-item padding="aroound-small" size="12" medium-device-size="6" large-device-size="6"
+        class="slds-align_absolute-center">
+        <div>
+
+
+          <div class="profile_title">
+            <h1>Skills</h1>
+          </div>
+          <p class="para_text">As I am Fresher I eager to learn new Technologies
+            and currently I'm Working as an frontend developer and works as an Salesforce LWC Developer..
+          </p>
+          <div class="skills_div">
+
+            <div class="slds-p-around_x-small">
+              <p>LWC</p>
+              <lightning-progress-bar value='75' size="large" variant="circular"></lightning-progress-bar>
+            </div>
+
+            <div class="slds-p-around_x-small">
+              <p>HTML</p>
+              <lightning-progress-bar value='70' size="large" variant="circular"></lightning-progress-bar>
+            </div>
+            <div class="slds-p-around_x-small">
+              <p>CSS</p>
+              <lightning-progress-bar class="progress-bar" value='80' size="large" variant="circular"></lightning-progress-bar>
+            </div>
+            <div class="slds-p-around_x-small">
+              <p>JavaScript</p>
+              <lightning-progress-bar value='79' size="large" variant="circular"></lightning-progress-bar>
+            </div>
+
+
+
+          </div>
+        </div>
+      </lightning-layout-item>
+    </lightning-layout>
+
+  </div>
+</template>
